@@ -1,0 +1,35 @@
+Script started on Thu 11 Feb 2021 05:32:00 PM CST
+[?1034h{cslinux1:~} g++ URLParser.cpp[C[C URLParser.cpp- URLParser.cpps URLParser.cppt URLParser.cppd URLParser.cpp= URLParser.cppc URLParser.cpp+ URLParser.cpp+ URLParser.cpp1 URLParser.cpp1 URLParser.cpp[C[C[C[C[C[C[C[C[C[C[C[C[C[C -o URLParser.cs1
+{cslinux1:~} ./URLParser.cs1
+Enter a URL
+httpz://cs.utdallas.edu:80000/people.html?name=Robert
+Invalid URL with following erroneous components:
+Protocol: httpz is not a valid protocol.
+Port: port number must be between 1 and 65535.
+{cslinux1:~} ./URLParser.cs1[C[C[C[C[C[C[C[C[C[C[C[C[Cg++ -std=c++11 URLParser.cpp -o URLParser.cs1[C[C[C[C[C[C[C[C[C[C[C[C[C[30P./URLParser.cs1
+Enter a URL
+https://cs.utdallas.edu:80/directory/faculty/people.html?name=Robert
+Protocol: https
+Domain: cs.utdallas.edu
+Port: 80
+File Path: /directory/faculty/people.html
+Parameters: name=Robert
+{cslinux1:~} ./URLParser.cs1
+Enter a URL
+htt://d.c/l.c
+Invalid URL with following erroneous components:
+Protocol: htt is not a valid protocol.
+Domain: d.c is not a valid domain.
+File Path: l.c is not a valid file path (needs to be .html or .htm).
+{cslinux1:~} ./URLParser.cs1
+Enter a URL
+https:  ://cs.utdall         a.a.a/fir.html ?age=5
+Protocol: http
+Domain: a.a.a
+Port: 
+File Path: fir.htm
+Parameters: age=5
+{cslinux1:~} exit
+exit
+
+Script done on Thu 11 Feb 2021 05:34:52 PM CST
